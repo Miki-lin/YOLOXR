@@ -86,9 +86,13 @@ python DOTA_devkit_YOLO/ResultMerge.py
 python DOTA_devkit_YOLO/dota_v1.5_evaluation_task1.py(You can refer to [DOTA_devkit_YOLO](https://github.com/hukaixuan19970627/DOTA_devkit_YOLO))
 ```
  * `If test, you should upload your results to DOTA Evaluation Server.`
+ 
+ 3. Evaluation
+ add eval for DOTAv1.0 val, HRSC2016, UCAS-AOD
+ 
 
-## Unfortunately 
-This implementation only get 0.712 mAP@0.5 on DOTA v1.0.
+## Results 
+This implementation get 75.41 mAP@0.5 on DOTA v1.0.
 
 ## Reference
 [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
@@ -98,3 +102,5 @@ This implementation only get 0.712 mAP@0.5 on DOTA v1.0.
 [YOLOv5_DOTA_OBB](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB)
 
 [RotationDetection](https://github.com/yangxue0827/RotationDetection)
+
+[YOLOX-OBB](https://github.com/buzhidaoshenme/YOLOX-OBB)
